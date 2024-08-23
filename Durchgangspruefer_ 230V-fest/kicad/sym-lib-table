@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Durchgangsprüfer230V-rescue)(type Legacy)(uri ${KIPRJMOD}/Durchgangsprüfer230V-rescue.lib)(options "")(descr ""))
+)

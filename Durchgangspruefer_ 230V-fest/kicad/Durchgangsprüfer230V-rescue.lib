@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LP_A-!Goody
+#
+DEF LP_A-!Goody U 0 40 Y Y 1 F N
+F0 "U" -250 50 50 H V C CNN
+F1 "LP_A-!Goody" -150 50 50 H V C CNN
+F2 "KHF_LIB:LP" -150 50 50 H V C CNN
+F3 "" -150 50 50 H I C CNN
+DRAW
+X LP 1 -50 0 100 D 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# LP_E-!Goody
+#
+DEF LP_E-!Goody U 0 40 Y Y 1 F N
+F0 "U" -250 50 50 H V C CNN
+F1 "LP_E-!Goody" -150 50 50 H V C CNN
+F2 "KHF_LIB:LP" -150 50 50 H V C CNN
+F3 "" -150 50 50 H I C CNN
+DRAW
+X LP_GND 1 -50 0 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
