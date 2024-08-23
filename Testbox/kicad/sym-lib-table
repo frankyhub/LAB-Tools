@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TasterLED-rescue)(type Legacy)(uri ${KIPRJMOD}/TasterLED-rescue.lib)(options "")(descr ""))
+)

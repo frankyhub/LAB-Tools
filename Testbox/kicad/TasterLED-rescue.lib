@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LED-Taster-!Goody
+#
+DEF LED-Taster-!Goody U 0 40 Y Y 1 F N
+F0 "U" -100 -300 50 H V C CNN
+F1 "LED-Taster-!Goody" -50 0 50 H V C CNN
+F2 "!Goody:LED-Taster" 50 100 50 H V C CNN
+F3 "" -100 -300 50 H I C CNN
+DRAW
+X A 1 -200 -150 100 L 50 50 1 1 P
+X K 2 0 -150 100 R 50 50 1 1 P
+X S1 3 -250 -300 100 L 50 50 1 1 P
+X Ö1 4 50 -300 100 R 50 50 1 1 P
+X S2 5 -250 -450 100 L 50 50 1 1 P
+X Ö2 6 50 -450 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

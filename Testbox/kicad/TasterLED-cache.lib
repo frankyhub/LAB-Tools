@@ -1,0 +1,75 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# !Goody_LED
+#
+DEF !Goody_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "!Goody_LED" 100 -100 50 V V C CNN
+F2 "LED_THT:LED_D5.0mm" 0 200 50 H I C CNN
+F3 "" 0 -100 50 V I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -150 0 -50 N
+P 2 0 1 10 50 -150 -50 -150 N
+P 4 0 1 10 50 -50 -50 -50 0 -150 50 -50 N
+P 5 0 1 0 30 -220 90 -280 90 -250 90 -280 60 -280 N
+P 5 0 1 0 30 -170 90 -230 90 -200 90 -230 60 -230 N
+X K 1 0 -250 100 U 50 50 1 1 P
+X A 2 0 50 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# !Goody_PL-Stecker_3pol
+#
+DEF !Goody_PL-Stecker_3pol J 0 40 Y Y 1 F N
+F0 "J" 0 0 50 H V C CNN
+F1 "!Goody_PL-Stecker_3pol" 0 200 50 H I C CNN
+F2 "!Goody:PL-Stecker3pol" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X GND 1 -150 -100 100 D 50 50 1 1 P
+X GPIO 2 0 -100 100 D 50 50 1 1 P
+X 3.3V 3 150 -100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TasterLED-rescue_LED-Taster-!Goody
+#
+DEF TasterLED-rescue_LED-Taster-!Goody U 0 40 Y Y 1 F N
+F0 "U" -100 -300 50 H V C CNN
+F1 "TasterLED-rescue_LED-Taster-!Goody" -50 0 50 H V C CNN
+F2 "!Goody:LED-Taster" 50 100 50 H V C CNN
+F3 "" -100 -300 50 H I C CNN
+DRAW
+X A 1 -200 -150 100 L 50 50 1 1 P
+X K 2 0 -150 100 R 50 50 1 1 P
+X S1 3 -250 -300 100 L 50 50 1 1 P
+X Ö1 4 50 -300 100 R 50 50 1 1 P
+X S2 5 -250 -450 100 L 50 50 1 1 P
+X Ö2 6 50 -450 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

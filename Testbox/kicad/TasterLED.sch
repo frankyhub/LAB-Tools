@@ -1,0 +1,861 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TasterLED-rescue:LED-Taster-!Goody U1
+U 1 1 603E6050
+P 2000 2150
+F 0 "U1" H 1900 2315 50  0000 C CNN
+F 1 "LED-Taster" H 1900 2224 50  0000 C CNN
+F 2 "!Goody:LED-Taster" H 1900 2133 50  0000 C CNN
+F 3 "" H 1900 1850 50  0001 C CNN
+	1    2000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TasterLED-rescue:LED-Taster-!Goody U2
+U 1 1 603E7408
+P 3250 2150
+F 0 "U2" H 3150 2315 50  0000 C CNN
+F 1 "LED-Taster" H 3150 2224 50  0000 C CNN
+F 2 "!Goody:LED-Taster" H 3150 2133 50  0000 C CNN
+F 3 "" H 3150 1850 50  0001 C CNN
+	1    3250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TasterLED-rescue:LED-Taster-!Goody U3
+U 1 1 603E76D2
+P 4550 2150
+F 0 "U3" H 4450 2315 50  0000 C CNN
+F 1 "LED-Taster" H 4450 2224 50  0000 C CNN
+F 2 "!Goody:LED-Taster" H 4450 2133 50  0000 C CNN
+F 3 "" H 4450 1850 50  0001 C CNN
+	1    4550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TasterLED-rescue:LED-Taster-!Goody U4
+U 1 1 603E91A9
+P 5800 2150
+F 0 "U4" H 5700 2315 50  0000 C CNN
+F 1 "LED-Taster" H 5700 2224 50  0000 C CNN
+F 2 "!Goody:LED-Taster" H 5700 2133 50  0000 C CNN
+F 3 "" H 5700 1850 50  0001 C CNN
+	1    5800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TasterLED-rescue:LED-Taster-!Goody U5
+U 1 1 603E91AF
+P 7050 2150
+F 0 "U5" H 6950 2315 50  0000 C CNN
+F 1 "LED-Taster" H 6950 2224 50  0000 C CNN
+F 2 "!Goody:LED-Taster" H 6950 2133 50  0000 C CNN
+F 3 "" H 6950 1850 50  0001 C CNN
+	1    7050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TasterLED-rescue:LED-Taster-!Goody U6
+U 1 1 603E91B5
+P 8350 2150
+F 0 "U6" H 8250 2315 50  0000 C CNN
+F 1 "LED-Taster" H 8250 2224 50  0000 C CNN
+F 2 "!Goody:LED-Taster" H 8250 2133 50  0000 C CNN
+F 3 "" H 8250 1850 50  0001 C CNN
+	1    8350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:LED D1
+U 1 1 603E92E1
+P 1900 1350
+F 0 "D1" H 2018 1334 50  0000 L CNN
+F 1 "LED" H 2018 1243 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 2018 1152 50  0000 L CNN
+F 3 "" V 1900 1250 50  0001 C CNN
+	1    1900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:LED D2
+U 1 1 603E94F2
+P 3100 1350
+F 0 "D2" H 3218 1334 50  0000 L CNN
+F 1 "LED" H 3218 1243 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 3218 1152 50  0000 L CNN
+F 3 "" V 3100 1250 50  0001 C CNN
+	1    3100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:LED D3
+U 1 1 603E9EDC
+P 4450 1350
+F 0 "D3" H 4568 1334 50  0000 L CNN
+F 1 "LED" H 4568 1243 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 4568 1152 50  0000 L CNN
+F 3 "" V 4450 1250 50  0001 C CNN
+	1    4450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:LED D4
+U 1 1 603EA055
+P 5700 1350
+F 0 "D4" H 5818 1334 50  0000 L CNN
+F 1 "LED" H 5818 1243 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 5818 1152 50  0000 L CNN
+F 3 "" V 5700 1250 50  0001 C CNN
+	1    5700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:LED D5
+U 1 1 603EA1E1
+P 6950 1350
+F 0 "D5" H 7068 1334 50  0000 L CNN
+F 1 "LED" H 7068 1243 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 7068 1152 50  0000 L CNN
+F 3 "" V 6950 1250 50  0001 C CNN
+	1    6950 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:LED D6
+U 1 1 603EA385
+P 8250 1350
+F 0 "D6" H 8368 1334 50  0000 L CNN
+F 1 "LED" H 8368 1243 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 8368 1152 50  0000 L CNN
+F 3 "" V 8250 1250 50  0001 C CNN
+	1    8250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J1
+U 1 1 603EBAFC
+P 1900 3850
+F 0 "J1" H 2108 3634 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 1900 4050 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 2108 3543 50  0000 L CNN
+F 3 "" H 1900 3850 50  0001 C CNN
+	1    1900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J4
+U 1 1 603EBCC7
+P 3150 3850
+F 0 "J4" H 3358 3634 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 3150 4050 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 3358 3543 50  0000 L CNN
+F 3 "" H 3150 3850 50  0001 C CNN
+	1    3150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J7
+U 1 1 603EBEE4
+P 4450 3850
+F 0 "J7" H 4658 3634 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 4450 4050 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 4658 3543 50  0000 L CNN
+F 3 "" H 4450 3850 50  0001 C CNN
+	1    4450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J10
+U 1 1 603EDE28
+P 5700 3850
+F 0 "J10" H 5908 3634 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 5700 4050 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 5908 3543 50  0000 L CNN
+F 3 "" H 5700 3850 50  0001 C CNN
+	1    5700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J13
+U 1 1 603EDE2E
+P 6950 3850
+F 0 "J13" H 7158 3634 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 6950 4050 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 7158 3543 50  0000 L CNN
+F 3 "" H 6950 3850 50  0001 C CNN
+	1    6950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J16
+U 1 1 603EDE34
+P 8250 3850
+F 0 "J16" H 8458 3634 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 8250 4050 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 8458 3543 50  0000 L CNN
+F 3 "" H 8250 3850 50  0001 C CNN
+	1    8250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J2
+U 1 1 603F04E0
+P 1900 4900
+F 0 "J2" H 2108 4684 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 1900 5100 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 2108 4593 50  0000 L CNN
+F 3 "" H 1900 4900 50  0001 C CNN
+	1    1900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J5
+U 1 1 603F04E6
+P 3150 4900
+F 0 "J5" H 3358 4684 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 3150 5100 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 3358 4593 50  0000 L CNN
+F 3 "" H 3150 4900 50  0001 C CNN
+	1    3150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J8
+U 1 1 603F04EC
+P 4450 4900
+F 0 "J8" H 4658 4684 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 4450 5100 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 4658 4593 50  0000 L CNN
+F 3 "" H 4450 4900 50  0001 C CNN
+	1    4450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J11
+U 1 1 603F04F2
+P 5700 4900
+F 0 "J11" H 5908 4684 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 5700 5100 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 5908 4593 50  0000 L CNN
+F 3 "" H 5700 4900 50  0001 C CNN
+	1    5700 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J14
+U 1 1 603F04F8
+P 6950 4900
+F 0 "J14" H 7158 4684 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 6950 5100 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 7158 4593 50  0000 L CNN
+F 3 "" H 6950 4900 50  0001 C CNN
+	1    6950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J17
+U 1 1 603F04FE
+P 8250 4900
+F 0 "J17" H 8458 4684 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 8250 5100 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 8458 4593 50  0000 L CNN
+F 3 "" H 8250 4900 50  0001 C CNN
+	1    8250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J3
+U 1 1 603F4AEC
+P 1900 5950
+F 0 "J3" H 2108 5734 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 1900 6150 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 2108 5643 50  0000 L CNN
+F 3 "" H 1900 5950 50  0001 C CNN
+	1    1900 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J6
+U 1 1 603F4AF2
+P 3150 5950
+F 0 "J6" H 3358 5734 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 3150 6150 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 3358 5643 50  0000 L CNN
+F 3 "" H 3150 5950 50  0001 C CNN
+	1    3150 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J9
+U 1 1 603F4AF8
+P 4450 5950
+F 0 "J9" H 4658 5734 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 4450 6150 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 4658 5643 50  0000 L CNN
+F 3 "" H 4450 5950 50  0001 C CNN
+	1    4450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J12
+U 1 1 603F4AFE
+P 5700 5950
+F 0 "J12" H 5908 5734 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 5700 6150 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 5908 5643 50  0000 L CNN
+F 3 "" H 5700 5950 50  0001 C CNN
+	1    5700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J15
+U 1 1 603F4B04
+P 6950 5950
+F 0 "J15" H 7158 5734 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 6950 6150 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 7158 5643 50  0000 L CNN
+F 3 "" H 6950 5950 50  0001 C CNN
+	1    6950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:PL-Stecker_3pol J18
+U 1 1 603F4B0A
+P 8250 5950
+F 0 "J18" H 8458 5734 50  0000 L CNN
+F 1 "PL-Stecker_3pol" H 8250 6150 50  0001 C CNN
+F 2 "!Goody:PL-Stecker3pol" H 8458 5643 50  0000 L CNN
+F 3 "" H 8250 5950 50  0001 C CNN
+	1    8250 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 603F4CA5
+P 1600 1300
+F 0 "R2" V 1393 1300 50  0000 C CNN
+F 1 "R" V 1484 1300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1530 1300 50  0001 C CNN
+F 3 "~" H 1600 1300 50  0001 C CNN
+	1    1600 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 603F53DF
+P 2800 1300
+F 0 "R4" V 2593 1300 50  0000 C CNN
+F 1 "R" V 2684 1300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2730 1300 50  0001 C CNN
+F 3 "~" H 2800 1300 50  0001 C CNN
+	1    2800 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 603F5C82
+P 4150 1300
+F 0 "R6" V 3943 1300 50  0000 C CNN
+F 1 "R" V 4034 1300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4080 1300 50  0001 C CNN
+F 3 "~" H 4150 1300 50  0001 C CNN
+	1    4150 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 603F625C
+P 5400 1300
+F 0 "R8" V 5193 1300 50  0000 C CNN
+F 1 "R" V 5284 1300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5330 1300 50  0001 C CNN
+F 3 "~" H 5400 1300 50  0001 C CNN
+	1    5400 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 603F682B
+P 6650 1300
+F 0 "R10" V 6443 1300 50  0000 C CNN
+F 1 "R" V 6534 1300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6580 1300 50  0001 C CNN
+F 3 "~" H 6650 1300 50  0001 C CNN
+	1    6650 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 603F6B82
+P 7950 1300
+F 0 "R12" V 7743 1300 50  0000 C CNN
+F 1 "R" V 7834 1300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7880 1300 50  0001 C CNN
+F 3 "~" H 7950 1300 50  0001 C CNN
+	1    7950 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 603F7131
+P 1300 2300
+F 0 "R1" V 1093 2300 50  0000 C CNN
+F 1 "R" V 1184 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1230 2300 50  0001 C CNN
+F 3 "~" H 1300 2300 50  0001 C CNN
+	1    1300 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 603F75DA
+P 2600 2300
+F 0 "R3" V 2393 2300 50  0000 C CNN
+F 1 "R" V 2484 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2530 2300 50  0001 C CNN
+F 3 "~" H 2600 2300 50  0001 C CNN
+	1    2600 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 603F7AED
+P 3850 2300
+F 0 "R5" V 3643 2300 50  0000 C CNN
+F 1 "R" V 3734 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3780 2300 50  0001 C CNN
+F 3 "~" H 3850 2300 50  0001 C CNN
+	1    3850 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 603F80CD
+P 5100 2300
+F 0 "R7" V 4893 2300 50  0000 C CNN
+F 1 "R" V 4984 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5030 2300 50  0001 C CNN
+F 3 "~" H 5100 2300 50  0001 C CNN
+	1    5100 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 603F859B
+P 6350 2300
+F 0 "R9" V 6143 2300 50  0000 C CNN
+F 1 "R" V 6234 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6280 2300 50  0001 C CNN
+F 3 "~" H 6350 2300 50  0001 C CNN
+	1    6350 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 603F8B5B
+P 7600 2300
+F 0 "R11" V 7393 2300 50  0000 C CNN
+F 1 "R" V 7484 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7530 2300 50  0001 C CNN
+F 3 "~" H 7600 2300 50  0001 C CNN
+	1    7600 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 1300 8250 1300
+Wire Wire Line
+	6800 1300 6950 1300
+Wire Wire Line
+	5550 1300 5700 1300
+Wire Wire Line
+	4300 1300 4450 1300
+Wire Wire Line
+	2950 1300 3100 1300
+Wire Wire Line
+	1750 1300 1900 1300
+Wire Wire Line
+	2750 2300 3050 2300
+Wire Wire Line
+	4000 2300 4350 2300
+Wire Wire Line
+	5250 2300 5600 2300
+Wire Wire Line
+	6500 2300 6850 2300
+Wire Wire Line
+	8250 1600 7050 1600
+Wire Wire Line
+	6950 1600 5800 1600
+Connection ~ 6950 1600
+Wire Wire Line
+	4450 1600 3250 1600
+Connection ~ 3100 1600
+Wire Wire Line
+	1900 1600 950  1600
+Wire Wire Line
+	950  1600 950  2950
+Connection ~ 1900 1600
+Wire Wire Line
+	1450 1300 1350 1300
+Wire Wire Line
+	1350 1300 1350 3600
+Wire Wire Line
+	1350 3600 1900 3600
+Wire Wire Line
+	1900 3600 1900 3950
+Wire Wire Line
+	2550 1300 2550 3600
+Wire Wire Line
+	2550 3600 3150 3600
+Wire Wire Line
+	3150 3600 3150 3950
+Wire Wire Line
+	2550 1300 2650 1300
+Wire Wire Line
+	4000 1300 3800 1300
+Wire Wire Line
+	3800 1300 3800 3600
+Wire Wire Line
+	3800 3600 4450 3600
+Wire Wire Line
+	4450 3600 4450 3950
+Wire Wire Line
+	5250 1300 5050 1300
+Wire Wire Line
+	5050 1300 5050 3600
+Wire Wire Line
+	5050 3600 5700 3600
+Wire Wire Line
+	5700 3600 5700 3950
+Wire Wire Line
+	6500 1300 6300 1300
+Wire Wire Line
+	6300 1300 6300 3650
+Wire Wire Line
+	6300 3650 6950 3650
+Wire Wire Line
+	6950 3650 6950 3950
+Wire Wire Line
+	7800 1300 7550 1300
+Wire Wire Line
+	7550 1300 7550 3650
+Wire Wire Line
+	7550 3650 8250 3650
+Wire Wire Line
+	8250 3650 8250 3950
+Wire Wire Line
+	8100 3950 8100 3800
+Wire Wire Line
+	8100 3800 6800 3800
+Wire Wire Line
+	1750 3800 1750 3950
+Connection ~ 1750 3950
+Wire Wire Line
+	4300 3950 4300 3800
+Wire Wire Line
+	950  3950 1750 3950
+Connection ~ 4300 3800
+Wire Wire Line
+	4300 3800 3000 3800
+Wire Wire Line
+	3000 3950 3000 3800
+Connection ~ 3000 3800
+Wire Wire Line
+	3000 3800 1750 3800
+Connection ~ 5550 3800
+Wire Wire Line
+	5550 3800 4300 3800
+Wire Wire Line
+	6800 3950 6800 3800
+Connection ~ 6800 3800
+Wire Wire Line
+	6800 3800 5550 3800
+Wire Wire Line
+	3100 1600 2000 1600
+Wire Wire Line
+	2000 2300 2000 1600
+Connection ~ 2000 1600
+Wire Wire Line
+	2000 1600 1900 1600
+Wire Wire Line
+	3250 2300 3250 1600
+Connection ~ 3250 1600
+Wire Wire Line
+	3250 1600 3100 1600
+Wire Wire Line
+	4550 2300 4550 1600
+Wire Wire Line
+	4550 1600 4450 1600
+Connection ~ 4450 1600
+Connection ~ 5700 1600
+Connection ~ 4550 1600
+Wire Wire Line
+	4550 1600 5700 1600
+Wire Wire Line
+	5800 2300 5800 1600
+Connection ~ 5800 1600
+Wire Wire Line
+	5800 1600 5700 1600
+Wire Wire Line
+	7050 2300 7050 1600
+Connection ~ 7050 1600
+Wire Wire Line
+	7050 1600 6950 1600
+Wire Wire Line
+	8350 2300 8350 1600
+Wire Wire Line
+	8350 1600 8250 1600
+Connection ~ 8250 1600
+Wire Wire Line
+	7750 2300 8150 2300
+Wire Wire Line
+	7450 2300 7450 4750
+Wire Wire Line
+	7450 4750 8250 4750
+Wire Wire Line
+	8250 4750 8250 5000
+Wire Wire Line
+	6200 2300 6200 4750
+Wire Wire Line
+	6200 4750 6950 4750
+Wire Wire Line
+	6950 4750 6950 5000
+Wire Wire Line
+	4950 2300 4950 4750
+Wire Wire Line
+	4950 4750 5700 4750
+Wire Wire Line
+	5700 4750 5700 5000
+Wire Wire Line
+	3700 2300 3700 4850
+Wire Wire Line
+	3700 4850 4450 4850
+Wire Wire Line
+	4450 4850 4450 5000
+Wire Wire Line
+	2450 2300 2450 4850
+Wire Wire Line
+	2450 4850 3150 4850
+Wire Wire Line
+	3150 4850 3150 5000
+Wire Wire Line
+	1150 2300 1150 4850
+Wire Wire Line
+	1150 4850 1900 4850
+Wire Wire Line
+	1900 4850 1900 5000
+Wire Wire Line
+	1750 3950 1750 4550
+Wire Wire Line
+	8100 4550 8100 5000
+Connection ~ 1750 4550
+Wire Wire Line
+	1750 4550 1750 5000
+Wire Wire Line
+	1750 4550 3000 4550
+Connection ~ 6800 4550
+Wire Wire Line
+	6800 4550 8100 4550
+Wire Wire Line
+	6800 4550 6800 5000
+Wire Wire Line
+	5550 5000 5550 4550
+Connection ~ 5550 4550
+Wire Wire Line
+	5550 4550 6800 4550
+Wire Wire Line
+	4300 5000 4300 4550
+Connection ~ 4300 4550
+Wire Wire Line
+	4300 4550 5550 4550
+Wire Wire Line
+	3000 5000 3000 4550
+Connection ~ 3000 4550
+Wire Wire Line
+	3000 4550 4300 4550
+Wire Wire Line
+	1750 2600 1750 2950
+Wire Wire Line
+	1750 2950 950  2950
+Connection ~ 950  2950
+Wire Wire Line
+	950  2950 950  3950
+Wire Wire Line
+	8100 2600 8100 2950
+Wire Wire Line
+	8100 2950 6800 2950
+Connection ~ 1750 2950
+Wire Wire Line
+	3000 2600 3000 2950
+Connection ~ 3000 2950
+Wire Wire Line
+	3000 2950 1750 2950
+Wire Wire Line
+	4300 2600 4300 2950
+Connection ~ 4300 2950
+Wire Wire Line
+	4300 2950 3000 2950
+Wire Wire Line
+	5550 2600 5550 2950
+Connection ~ 5550 2950
+Wire Wire Line
+	5550 2950 4300 2950
+Wire Wire Line
+	6800 2600 6800 2950
+Connection ~ 6800 2950
+Wire Wire Line
+	6800 2950 5550 2950
+Wire Wire Line
+	1750 2450 1900 2450
+Wire Wire Line
+	1900 2450 1900 3300
+Wire Wire Line
+	1900 3300 2300 3300
+Wire Wire Line
+	2300 3300 2300 5700
+Wire Wire Line
+	2300 5700 1900 5700
+Wire Wire Line
+	1900 5700 1900 6050
+Wire Wire Line
+	3000 2450 3150 2450
+Wire Wire Line
+	3150 2450 3150 3300
+Wire Wire Line
+	3150 3300 3500 3300
+Wire Wire Line
+	3500 3300 3500 5700
+Wire Wire Line
+	3500 5700 3150 5700
+Wire Wire Line
+	3150 5700 3150 6050
+Wire Wire Line
+	4300 2450 4450 2450
+Wire Wire Line
+	4450 2450 4450 3300
+Wire Wire Line
+	4450 3300 4800 3300
+Wire Wire Line
+	4800 3300 4800 5700
+Wire Wire Line
+	4800 5700 4450 5700
+Wire Wire Line
+	4450 5700 4450 6050
+Wire Wire Line
+	5550 2450 5700 2450
+Wire Wire Line
+	5700 2450 5700 3300
+Wire Wire Line
+	5700 3300 6000 3300
+Wire Wire Line
+	6000 3300 6000 5750
+Wire Wire Line
+	6000 5750 5700 5750
+Wire Wire Line
+	5700 5750 5700 6050
+Wire Wire Line
+	7050 2450 7050 3300
+Wire Wire Line
+	7050 3300 7300 3300
+Wire Wire Line
+	7300 3300 7300 5700
+Wire Wire Line
+	7300 5700 6950 5700
+Wire Wire Line
+	6950 5700 6950 6050
+Wire Wire Line
+	6800 2450 7050 2450
+Wire Wire Line
+	8100 2450 8250 2450
+Wire Wire Line
+	8250 2450 8250 3300
+Wire Wire Line
+	8250 3300 8650 3300
+Wire Wire Line
+	8650 3300 8650 5750
+Wire Wire Line
+	8650 5750 8250 5750
+Wire Wire Line
+	8250 5750 8250 6050
+Wire Wire Line
+	950  3950 950  5900
+Wire Wire Line
+	8100 5900 8100 6050
+Wire Wire Line
+	950  5900 1750 5900
+Connection ~ 950  3950
+Wire Wire Line
+	1750 6050 1750 5900
+Connection ~ 1750 5900
+Wire Wire Line
+	1750 5900 3000 5900
+Wire Wire Line
+	3000 5900 3000 6050
+Connection ~ 3000 5900
+Wire Wire Line
+	3000 5900 4300 5900
+Wire Wire Line
+	4300 6050 4300 5900
+Connection ~ 4300 5900
+Wire Wire Line
+	4300 5900 5550 5900
+Wire Wire Line
+	5550 6050 5550 5900
+Connection ~ 5550 5900
+Wire Wire Line
+	5550 5900 6800 5900
+Wire Wire Line
+	6800 6050 6800 5900
+Connection ~ 6800 5900
+Wire Wire Line
+	6800 5900 8100 5900
+NoConn ~ 8400 5000
+NoConn ~ 8400 6050
+NoConn ~ 7100 6050
+NoConn ~ 7100 5000
+NoConn ~ 5850 5000
+NoConn ~ 5850 6050
+NoConn ~ 3300 5000
+NoConn ~ 3300 6050
+NoConn ~ 2050 6050
+NoConn ~ 2050 5000
+NoConn ~ 2050 3950
+NoConn ~ 3300 3950
+NoConn ~ 4600 3950
+NoConn ~ 5850 3950
+NoConn ~ 7100 3950
+NoConn ~ 8400 3950
+NoConn ~ 2050 2450
+NoConn ~ 2050 2600
+NoConn ~ 3300 2450
+NoConn ~ 3300 2600
+NoConn ~ 4600 2450
+NoConn ~ 4600 2600
+NoConn ~ 7100 2450
+NoConn ~ 7100 2600
+NoConn ~ 5850 2450
+NoConn ~ 5850 2600
+NoConn ~ 8400 2450
+NoConn ~ 8400 2600
+Wire Wire Line
+	1450 2300 1800 2300
+Wire Wire Line
+	5550 3900 5550 3800
+Wire Wire Line
+	5550 3800 5550 3950
+NoConn ~ 4600 6050
+NoConn ~ 4600 5000
+$EndSCHEMATC
