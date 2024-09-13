@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+    form {
+        margin: 0
+    }
+
+    #show {
+    }
+
+    #temperature {
+        margin-right: 0.1em;
+    }
+
+    .temperature {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 500%;
+        font-weight: bold;
+        margin-top: 5%;
+    }
+
+    .time {
+        margin-top: 5%;
+        font-size: 18px;
+    }
+
+</style>
+<script>
+    function updateValues( )
+    {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById('time').innerHTML = new Date();
+                document.getElementById("temperature").innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", "/temperature", true);
+        xhttp.send(); 
+    }
+
+    window.onload = function() {
+        setInterval(updateValues, 5000);
+    }
+
+</script>
+
+<body>
+    <h1>Temperatur im FabLab</h1>
+    <h3>Gmund</h3>
+    <div role="presentation" id="show">
+        <div class="temperature">
+            <div id="temperature">x</div><div>°C</div>
+        </div>
+        <div class="time">
+            <div>Zuletzt aktualisiert:</div>
+            <div id="time">x</div>
+        </div>
+    </div>
+</body>
+
+</html>
