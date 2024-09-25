@@ -4,7 +4,7 @@
 //******* Parameter ********************
 n="Josef"; //Name
 x=-11.5;      //Text-Position +>rechts
-y=1.6;      //Platinen-Dicke
+y=1.55;      //Platinen-Dicke
 //**************************************
 
 
