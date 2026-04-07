@@ -1,3 +1,3 @@
 
 ## Imbushalter
-![pic](/pic/Imbushalter.png)
+![pic](pic/Imbushalter.png)
