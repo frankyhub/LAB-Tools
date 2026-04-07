@@ -1,3 +1,3 @@
 ## Kabelführung
 
-![pic](Kabelfuehrung.png)
+![pic](pic/Kabelfuehrung.png)
